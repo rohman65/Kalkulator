@@ -50,6 +50,15 @@ body {
     background-color: #ededed;
 }
 
+.ac-key {
+    background-color: red;
+    color: white;
+}
+
+.ac-key:active{
+    background-color: darkred;
+}
+
 .operator {
     background-color: #f9a825;
     color: white;
@@ -57,4 +66,8 @@ body {
 
 .operator:active {
     background-color: #f57f17;
+}
+
+.fa-backspace {
+    font-size: 1.4em;
 }
